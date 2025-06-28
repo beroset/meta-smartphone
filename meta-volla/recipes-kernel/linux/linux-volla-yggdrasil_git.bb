@@ -17,12 +17,10 @@ ANDROID_BOOTIMG_TAGS_RAM_BASE = "0x54000000"
 inherit kernel_android
 
 SRC_URI = "git://github.com/shr-distribution/linux.git;branch=yggdrasil/4.4/halium-9.0;protocol=https"
-S = "${WORKDIR}/git"
 
 do_configure:prepend() {
     cp -v -f ${S}/arch/arm64/configs/k63v2_64_bsp_defconfig ${WORKDIR}/defconfig
 }
-
 
 do_configure:append() {
   kernel_conf_variable_fixup() {

@@ -8,7 +8,6 @@ SRC_URI = " \
     git://gitlab.com/postmarketOS/msm-firmware-loader.git;protocol=https;branch=master \
 "
 SRCREV = "462649669e4bb46fefa6b0d85b653b20871c7650"
-S = "${WORKDIR}/git"
 
 inherit systemd
 SYSTEMD_PACKAGES = "${PN}"

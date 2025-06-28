@@ -13,8 +13,6 @@ SRC_URI = " \
 "
 SRCREV = "4e5bdb5db80c33acbb79532816112cd8fa537ac0"
 
-S = "${WORKDIR}/git"
-
 do_install() {
     install -d ${D}${libdir}/firmware
     

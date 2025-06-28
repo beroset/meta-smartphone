@@ -14,8 +14,6 @@ SRCREV ?= "9100613e03a4f609915e54ad4a957bed3555795a"
 SRC_URI = "git://github.com/msm8953-mainline/lk2nd.git;protocol=https;branch=${BRANCH} \
 "
 
-S = "${WORKDIR}/git"
-
 PACKAGE_ARCH = "${MACHINE_ARCH}"
 
 COMPATIBLE_MACHINE = "(rosy|mido|tissot)"

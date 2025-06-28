@@ -8,4 +8,3 @@ SRC_URI = "https://github.com/webOS-ports/halium-images/releases/download/halium
 SRC_URI[md5sum] = "b5f2b8bbfcde7bd02da1a806669f397e"
 SRC_URI[sha256sum] = "1292e32fc6e036254757a25901f3b8b9d5a1dfb13cf336ce61d0df95d2d62aef"
 
-

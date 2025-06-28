@@ -19,7 +19,6 @@ ANDROID_BOOTIMG_TAGS_RAM_BASE = "0x80000100"
 inherit kernel_android
 
 SRC_URI = "git://github.com/shr-distribution/linux.git;branch=oxygen/3.18/halium-7.1;protocol=https"
-S = "${WORKDIR}/git"
 
 do_configure:prepend() {
     cp -v -f ${S}/arch/arm64/configs/hybris_oxygen_defconfig ${WORKDIR}/defconfig

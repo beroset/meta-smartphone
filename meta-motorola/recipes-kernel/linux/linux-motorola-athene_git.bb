@@ -17,7 +17,6 @@ ANDROID_BOOTIMG_TAGS_RAM_BASE = "0x80000100"
 inherit kernel_android
 
 SRC_URI = "git://github.com/shr-distribution/linux.git;branch=athene/3.10/cm-14.1;protocol=https"
-S = "${WORKDIR}/git"
 
 do_configure:prepend() {
     cp -v -f ${S}/arch/arm/configs/athene_defconfig ${WORKDIR}/defconfig

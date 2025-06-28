@@ -12,7 +12,6 @@ SRC_URI = "git://github.com/andersson/rpmsgexport.git;protocol=https;branch=mast
 EXTRA_OEMAKE = "prefix=${prefix} bindir=${bindir} libdir=${libdir} includedir=${includedir} servicedir=${systemd_system_unitdir} LDFLAGS='${LDFLAGS}' CFLAGS='${CFLAGS}'"
 
 SRCREV = "324d88d668f36c6a5e6a9c2003a050b8a5a3cd60"
-S = "${WORKDIR}/git"
 
 do_install() {
     oe_runmake install 'DESTDIR=${D}'

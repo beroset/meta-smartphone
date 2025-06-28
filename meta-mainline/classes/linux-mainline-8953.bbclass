@@ -22,7 +22,6 @@ SRC_URI = " \
 
 KBUILD_DEFCONFIG = ""
 
-S = "${WORKDIR}/git"
 
 PV = "${LINUX_VERSION}+git"
 # for bumping PR bump MACHINE_KERNEL_PR in the machine config

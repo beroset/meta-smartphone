@@ -32,8 +32,6 @@ SRC_URI = " \
     file://defconfig \
 "
 
-S = "${WORKDIR}/git"
-
 PV = "${LINUX_VERSION}+git"
 # for bumping PR bump MACHINE_KERNEL_PR in the machine config
 inherit machine_kernel_pr

@@ -12,7 +12,7 @@ SRC_URI = "git://github.com/libhybris/libhybris;branch=master;protocol=https \
            file://0001-eglplatform.h-take-MESA_EGL_NO_X11_HEADERS-into-acco.patch;patchdir=.. \
 "
 
-S = "${WORKDIR}/git/hybris"
+S = "${UNPACKDIR}/git/hybris"
 
 PACKAGE_ARCH = "${MACHINE_ARCH}"
 

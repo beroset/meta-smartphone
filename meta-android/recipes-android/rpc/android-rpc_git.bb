@@ -11,6 +11,6 @@ PR = "r1"
 SRC_URI = "\
   ${FREESMARTPHONE_GIT}/utilities.git;protocol=https;branch=master \
 "
-S = "${WORKDIR}/git/android/rpc"
+S = "${UNPACKDIR}/git/android/rpc"
 
 inherit autotools-brokensep

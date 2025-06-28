@@ -18,7 +18,6 @@ ANDROID_BOOTIMG_TAGS_RAM_BASE = "0x00000100"
 inherit kernel_android
 
 SRC_URI = "git://github.com/shr-distribution/linux.git;branch=sagit/4.4/halium-9.0;protocol=https"
-S = "${WORKDIR}/git"
 
 do_configure:prepend() {
     cp -v -f ${S}/arch/arm64/configs/sagit_defconfig ${WORKDIR}/defconfig
@@ -48,7 +47,6 @@ do_configure:append() {
   kernel_conf_variable_fixup USB_CONFIGFS y
   oe_runmake oldnoconfig
 }
-
 
 SRCREV = "917d5d898766594acef1bffc2f661db06032863b"
 

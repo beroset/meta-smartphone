@@ -12,7 +12,6 @@ SRC_URI = "git://github.com/linux-msm/qmic.git;protocol=https;branch=master"
 EXTRA_OEMAKE = "prefix=${prefix} bindir=${bindir} libdir=${libdir} includedir=${includedir} servicedir=${systemd_system_unitdir} LDFLAGS='${LDFLAGS}'"
 
 SRCREV = "4574736afce75aa5eec1e1069a19563410167c9f"
-S = "${WORKDIR}/git"
 
 BBCLASSEXTEND = "native"
 

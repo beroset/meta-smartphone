@@ -7,7 +7,6 @@ SRCREV = "10fa2dc40b8e37409bec84267628df8c19838b99"
 PV = "4.2.2+git"
 
 SRC_URI = "git://android.googlesource.com/device/sample;protocol=https;branch=master"
-S = "${WORKDIR}/git"
 
 inherit allarch
 

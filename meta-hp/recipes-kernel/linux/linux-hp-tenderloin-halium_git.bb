@@ -6,7 +6,6 @@ DESCRIPTION = "Linux kernel for HP Touchpad (Halium based)"
 COMPATIBLE_MACHINE = "tenderloin-halium"
 
 SRC_URI = "git://github.com/shr-distribution/linux.git;branch=tenderloin/3.4/halium-9.0;protocol=https"
-S = "${WORKDIR}/git"
 
 CMDLINE = "androidboot.selinux=permissive  androidboot.hardware=tenderloin"
 

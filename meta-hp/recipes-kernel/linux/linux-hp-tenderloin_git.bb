@@ -29,8 +29,6 @@ SRC_URI = " \
     file://defconfig \
 "
 
-S = "${WORKDIR}/git"
-
 LINUX_VERSION = "5.19-rc7"
 PV = "${LINUX_VERSION}+git"
 # for bumping PR bump MACHINE_KERNEL_PR in the machine config

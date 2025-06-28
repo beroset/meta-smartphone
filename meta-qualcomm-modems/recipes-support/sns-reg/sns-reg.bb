@@ -13,7 +13,6 @@ SRC_URI = "git://gitlab.com/msm8996-mainline/sns-reg.git;protocol=https;branch=m
 "
 
 SRCREV = "ad37ad305cde8b24544cb106215fec9ae4a2b135"
-S = "${WORKDIR}/git"
 
 inherit meson
 inherit pkgconfig

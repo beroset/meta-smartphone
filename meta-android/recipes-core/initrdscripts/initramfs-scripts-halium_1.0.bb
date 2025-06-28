@@ -15,8 +15,6 @@ SRC_URI += " \
   file://functions \
 "
 
-S = "${WORKDIR}/git"
-
 SRCREV = "0a2275aafe651d19e9eb3aa7a801c4d28550298f"
 
 do_install:append() {

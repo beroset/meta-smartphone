@@ -19,7 +19,6 @@ ANDROID_BOOTIMG_TAGS_RAM_BASE = "0x00000100"
 inherit kernel_android
 
 SRC_URI = "git://github.com/shr-distribution/linux.git;branch=leeco-s2/3.10/halium-7.1;protocol=https"
-S = "${WORKDIR}/git"
 
 do_configure:prepend() {
     cp -v -f ${S}/arch/arm64/configs/lineage_s2_defconfig ${WORKDIR}/defconfig

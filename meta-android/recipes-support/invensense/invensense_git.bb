@@ -10,7 +10,6 @@ PV = "4.2+git"
 SRC_URI = " \
   git://android.googlesource.com/platform/hardware/invensense;branch=master;protocol=https \
   file://0001-Implement-cmake-based-build-script-for-builds-outsid.patch"
-S = "${WORKDIR}/git"
 
 inherit cmake
 

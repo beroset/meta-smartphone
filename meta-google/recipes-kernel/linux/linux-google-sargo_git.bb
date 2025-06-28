@@ -19,8 +19,6 @@ inherit kernel_android pkgconfig
 SRC_URI = "git://github.com/shr-distribution/linux.git;branch=sargo/${LINUX_VERSION}/lune;protocol=https"
 SRCREV = "c269a4ba978e37cc01e7e8c560145b5de2c7695c"
 
-S = "${WORKDIR}/git"
-
 LINUX_VERSION = "4.9.124"
 PV = "${LINUX_VERSION}+git"
 # for bumping PR bump MACHINE_KERNEL_PR in the machine config

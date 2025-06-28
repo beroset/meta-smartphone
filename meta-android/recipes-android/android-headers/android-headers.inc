@@ -11,7 +11,6 @@ SHRT_VER = "${PV}"
 
 ANDROID_HEADERS_BRANCH ?= "halium-${SHRT_VER}"
 SRC_URI = "git://github.com/Halium/android-headers.git;branch=${ANDROID_HEADERS_BRANCH};protocol=https"
-S = "${WORKDIR}/git"
 
 # Don't do anything even when there is a Makefile file in ${S}
 do_configure() {

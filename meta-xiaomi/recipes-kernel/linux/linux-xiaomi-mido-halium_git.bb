@@ -17,7 +17,6 @@ ANDROID_BOOTIMG_TAGS_RAM_BASE = "0x80000100"
 inherit kernel_android pkgconfig
 
 SRC_URI = "git://github.com/shr-distribution/linux.git;branch=mido/4.9/halium-9.0;protocol=https"
-S = "${WORKDIR}/git"
 
 do_configure:prepend() {
     cp -v -f ${S}/arch/arm64/configs/mido_defconfig ${WORKDIR}/defconfig

@@ -17,7 +17,6 @@ ANDROID_BOOTIMG_TAGS_RAM_BASE = "0x80200100"
 inherit kernel_android
 
 SRC_URI = "git://github.com/shr-distribution/linux.git;branch=mako/3.4/halium-9.0;protocol=https"
-S = "${WORKDIR}/git"
 
 do_configure:prepend() {
     cp -v -f ${S}/arch/arm/configs/lineageos_mako_defconfig ${WORKDIR}/defconfig

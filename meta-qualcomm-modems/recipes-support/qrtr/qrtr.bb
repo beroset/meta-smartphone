@@ -10,7 +10,6 @@ PV = "1.1"
 SRC_URI = "git://github.com/linux-msm/qrtr.git;protocol=https;branch=master"
 
 SRCREV = "b6b586f3d099dff7c56b69c824a1931ddad170a4"
-S = "${WORKDIR}/git"
 
 inherit meson
 

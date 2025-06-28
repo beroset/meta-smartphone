@@ -13,7 +13,7 @@ SRC_URI = " \
 "
 SRCREV = "bb09565e99c8a61758588053149a2fc783c811e2"
 
-S = "${WORKDIR}/firmware"
+S = "${UNPACKDIR}/firmware"
 
 do_install() {
     install -d ${D}${libdir}/firmware

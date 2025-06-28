@@ -10,7 +10,6 @@ PV = "0.1.22+git"
 SRC_URI = "git://kernel.ubuntu.com/cking/suspend-blocker.git;branch=master \
     file://0001-suspend-blocker.c-update-json.h-path.patch \
 "
-S = "${WORKDIR}/git"
 
 SRCREV = "9aa645305ff4870a3f825c7767937fa6cd5ae6d5"
 

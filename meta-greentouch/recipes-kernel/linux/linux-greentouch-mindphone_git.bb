@@ -17,7 +17,6 @@ ANDROID_BOOTIMG_TAGS_RAM_BASE = "0x00000100"
 inherit kernel_android
 
 SRC_URI = "git://github.com/shr-distribution/linux.git;branch=dnim/4.14.186;protocol=https"
-S = "${WORKDIR}/git"
 
 do_configure:prepend() {
     cp -v -f ${S}/arch/arm64/configs/k39tv1_64_bsp_defconfig_luneos ${WORKDIR}/defconfig

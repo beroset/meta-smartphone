@@ -10,7 +10,6 @@ PV = "0.2"
 SRC_URI = "git://github.com/scintill/libsmdpkt_wrapper.git;protocol=https;branch=master"
 
 SRCREV = "1b951eca8a6d2690f6ce146d5f92338e071b7156"
-S = "${WORKDIR}/git"
 
 EXTRA_OEMAKE = "LDFLAGS='${LDFLAGS}'"
 
