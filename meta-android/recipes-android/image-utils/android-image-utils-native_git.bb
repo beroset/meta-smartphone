@@ -11,7 +11,7 @@ PR = "r4"
 SRC_URI = "\
   ${FREESMARTPHONE_GIT}/utilities.git;protocol=https;branch=master \
 "
-S = "${UNPACKDIR}/git/android/image-utils"
+S = "${UNPACKDIR}/${BB_GIT_DEFAULT_DESTSUFFIX}/android/image-utils"
 
 inherit autotools deploy native
 
